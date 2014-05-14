@@ -5,23 +5,23 @@
 Summary:	FreeForm data handler module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł obsługujący dane FreeForm dla serwera danych OPeNDAP
 Name:		opendap-freeform_handler
-Version:	3.8.7
+Version:	3.8.8
 Release:	1
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/freeform_handler-%{version}.tar.gz
-# Source0-md5:	f3c3ceab59db4c33492f5575c3a3cefb
+# Source0-md5:	f3d1518f5c462810be848eba73f6bf09
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.63
 BuildRequires:	automake
-%{?with_tests:BuildRequires:	bes >= 3.9.0}
-BuildRequires:	bes-devel >= 3.9.0
-BuildRequires:	libdap-devel >= 3.11.0
+%{?with_tests:BuildRequires:	bes >= 3.13.0}
+BuildRequires:	bes-devel >= 3.13.0
+BuildRequires:	libdap-devel >= 3.13.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:1.5
 BuildRequires:	pkgconfig
-Requires:	bes >= 3.9.0
-Requires:	libdap >= 3.11.0
+Requires:	bes >= 3.13.0
+Requires:	libdap >= 3.13.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
