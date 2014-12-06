@@ -6,11 +6,11 @@ Summary:	FreeForm data handler module for the OPeNDAP data server
 Summary(pl.UTF-8):	Moduł obsługujący dane FreeForm dla serwera danych OPeNDAP
 Name:		opendap-freeform_handler
 Version:	3.8.8
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Daemons
 Source0:	http://www.opendap.org/pub/source/freeform_handler-%{version}.tar.gz
-# Source0-md5:	f3d1518f5c462810be848eba73f6bf09
+# Source0-md5:	54272555ef951b0e0663a09ece7e8304
 URL:		http://opendap.org/
 BuildRequires:	autoconf >= 2.63
 BuildRequires:	automake
